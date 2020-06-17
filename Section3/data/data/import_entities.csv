@@ -1,0 +1,68 @@
+application,Microsoft Outlook,ms email,outlook
+application,Microsoft Project,MS Project,mpp,project
+application,IBM Notes,lotus notes,notes
+application,Microsoft Skype,skype
+application,Slack
+chitchat,my future,will win,will lose,who will win,who will lose,who's gonna win,who's gonna lose,who is gonna win,who is gonna lose,who is going to win,who is going to lose,predict the future,in the future,about the future
+chitchat,nice to meet you,nice meeting you,met you,meet you,meet my,meet me,meeting you
+chitchat,not feeling well,not feeling good,feel bad,don't feel well,don't feel good
+chitchat,number,numeric,numbers,numerics
+chitchat,random_interaction,random_interaction
+chitchat,religion,religious,religions,pope,muslims,muslim,judaism,jews,jewish,jew,islamic,islam,god,christians,christianity,christian,buddhist,buddhism
+chitchat,sibling,sisters,sister,siblings,brothers,brother
+chitchat,sing,songs,song,sings,singing
+chitchat,sky,skies
+chitchat,sport,sports,athletics,athletic,athletes,athlete
+chitchat,swear,swearing,cussing,cusses,cuss,cursing,curses,curse
+chitchat,terminator,terminators,sarah connor,kyle reese,john connor
+chitchat,thank you,thanks
+chitchat,touch you
+chitchat,tricks,trick,do anything
+chitchat,tv show,watching,tv shows,tv,to watch,television,shows,show,programs,program
+chitchat,what time is it,what time it,what time do you,what's the time,time is,have the time,clocks,clock
+chitchat,you here,you there,where are you
+chitchat,you see
+chitchat,your name,you named,you name,you have a name,you called,call you
+chitchat,time,clock
+chitchat,date,yesterday,day,today,dates
+chitchat,artist,musician,singer
+chitchat,movie,flix,movies,flicks,flick,films,film
+chitchat,song,songs
+chitchat,your age,you old,old are you,how old are you
+chitchat,zero divided by zero,0 ÷ 0,0÷0,0 / 0,0/0,divided by zero,divide by zero
+chitchat,politics,politician,congress,senate,trump,republican,obama,hillary clinton,election,donald trump,democrat,clinton
+chitchat,birthday
+chitchat,joke,something funny,riddle,jokes,jerk,a funny
+chitchat,actor,movie stars,movie star,film stars,film star,actors
+chitchat,actress,actresses
+chitchat,animal,pets,pet,animals
+chitchat,book,to read,reading,novels,novel,literature,bucks,buck,books
+chitchat,calm down
+chitchat,children,have some kids,have kids,have any kids,have a kid,have a child
+chitchat,color,colours,colour,colors
+chitchat,dating,single,relationship,married,girlfriends,girlfriend,divorced,crush,boyfriends,boyfriend
+chitchat,drink,drinks,beverages,beverage
+chitchat,gender,you male,you female,you a girl,you a boy,woman or man,man or woman,male or female,girl or boy,female or male,boy or girl
+chitchat,food,foods,edibles,cuisines,cuisine
+chitchat,hear me,listens,listening,listened,listen
+chitchat,how are you,what's up,what is up,how's it going,how're you,how do you do,how are ya
+chitchat,in love,love you,love me,love anyone
+chitchat,interests,interesting,interested,hobby,hobbies
+chitchat,introduction,you able to do,what do you do,what can you do,introduces,introduced,introduce
+chitchat,is friend,your friends,your friend,some friends,my friend,have friends,have any friends,a friend
+chitchat,kidding,serious,joking
+chitchat,lying,lies,liar
+chitchat,math,subtract,plus,multiply
+chitchat,meaning of life
+chitchat,music,singers,singer,musics,musicians,musician,cds,cd,bands,band,artists,artist,albums,album
+contact,internationalPhone,/^(\(?\+?[0-9]*\)?)?[0-9_\- \(\)]*$/
+contact,phone,"/^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/"
+contact,website,"/(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/"
+contact_method,Email,"/\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b/"
+issue_type,software installation,fixes,install,patches,updates
+issue_type,workstation,machine,desktop,pc,mac,laptop,macbook,macbook pro,mbp
+issue_type,access,recover password,password change,password
+issue_type,printer,copier,print
+issue_type,mobile device,cell phone,pixel,iphone,ipad
+response,yes,yup,you bet,yep,yeah,ye,yah,ya,totally,sure,si,maybe,I think so,I guess,fine,correct,alright
+response,no,na,nay,nopes,not that,not right,not,nope,negative,false,don't,do not,other,something else

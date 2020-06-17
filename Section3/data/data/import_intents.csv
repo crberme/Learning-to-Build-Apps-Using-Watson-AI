@@ -1,0 +1,88 @@
+That's great. Talk to you later,Handle_Goodbye
+I will see you later,Handle_Goodbye
+take care,Handle_Goodbye
+ciao,Handle_Goodbye
+see ya,Handle_Goodbye
+you were great,Handle_Goodbye
+thanks for all the help,Handle_Goodbye
+Awesome. Talk to you soon.,Handle_Goodbye
+Thanks. Bye for now,Handle_Goodbye
+Perfect. Goodbye.,Handle_Goodbye
+bye bye,Handle_Goodbye
+Thank you very much. Talk to you later,Handle_Goodbye
+Thanks. Goodbye,Handle_Goodbye
+Hey twin,Handle_Greeting
+Good day,Handle_Greeting
+Good evening,Handle_Greeting
+Good morning,Handle_Greeting
+Good to see you,Handle_Greeting
+Greetings,Handle_Greeting
+Have you been well?,Handle_Greeting
+Hello Agent,Handle_Greeting
+Hello I am looking for some help here,Handle_Greeting
+Hey how are you doing,Handle_Greeting
+Hey there,Handle_Greeting
+Hey there all,Handle_Greeting
+You there,Handle_Greeting
+yo,Handle_Greeting
+Who is this?,Handle_Greeting
+What's up?,Handle_Greeting
+What's new?,Handle_Greeting
+Ok take me back,Handle_Greeting
+Looking good eve,Handle_Greeting
+How r u?,Handle_Greeting
+How is it going?,Handle_Greeting
+How have you been?,Handle_Greeting
+How are you today?,Handle_Greeting
+How are things going?,Handle_Greeting
+hiya,Handle_Greeting
+Hi there,Handle_Greeting
+Hi advisor,Handle_Greeting
+Hey you,Handle_Greeting
+Whom to contact to request access to an app?,Request_Access
+give me access to SAP ERP,Request_Access
+I need to view the sales reports. Add me to allowed users list,Request_Access
+enable access,Request_Access
+Allow me to access,Request_Access
+let me in,Request_Access
+How do I get access to the billing application?,Request_Access
+give me access to the SAP ERP system,Request_Access
+I need access to Concur,Request_Access
+Why do I get a not allowed error message when accessing the portal?,Request_Access
+Need to get to the HR app,Request_Access
+I want the rights to access Salesforce,Request_Access
+I cannot find the Box folder,Request_Access
+How to submit an app access request?,Request_Access
+I cannot access my system,Reset_Password
+I forgot my password,Reset_Password
+How do I reset a password,Reset_Password
+reset my pwd and text it my phone,Reset_Password
+reset my login password,Reset_Password
+password reset,Reset_Password
+don't remember my pass,Reset_Password
+Initiate a password reset,Reset_Password
+Reset my password please,Reset_Password
+cannot login into my email,Reset_Password
+forgot password. what to do?,Reset_Password
+Forgot password,Submit_Service_Request
+Password change consistently fails with error,Submit_Service_Request
+After Reseting Password website is not asking for new password,Submit_Service_Request
+Can't reset password for SAP credentials when logged in via OpenID,Submit_Service_Request
+Problems reseting password with new email,Submit_Service_Request
+Cannot make Skype calls because of Norton antivirus blocking,Submit_Service_Request
+Cannot install Slack because of Symantec firewall,Submit_Service_Request
+having problems with outlook,Submit_Service_Request
+I have issues making Slack calls,Submit_Service_Request
+Can you upgrade the iOS on my iPad?,Submit_Service_Request
+Need help deploying an app to the server,Submit_Service_Request
+Cannot print. Need this fixed ASAP,Submit_Service_Request
+I need a new Macbook for dev work.,Submit_Service_Request
+I want to order a new laptop for an employee who will join next month,Submit_Service_Request
+Would like a Wifi repeater installed,Submit_Service_Request
+Laptop is heating up badly. Need to get it checked,Submit_Service_Request
+I broke my phone. Need a replacement,Submit_Service_Request
+Printer is not working in my floor,Submit_Service_Request
+Need to patch a server with the latest fixes,Submit_Service_Request
+I need Microsoft Project installed on my machine,Submit_Service_Request
+I want project installed,Submit_Service_Request
+Need the latest version of Blue Prism on my laptop,Submit_Service_Request

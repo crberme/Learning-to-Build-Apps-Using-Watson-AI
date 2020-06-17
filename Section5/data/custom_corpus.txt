@@ -1,0 +1,29 @@
+Companies are legally required to file a quarterly report, the 10-Q, an annual report and the 10-K with the SEC.
+The Form 10-Q, however, is the black and white, no-frills document that is submitted to the SEC.
+Diluted EPS is a performance metric used to gauge the quality of a company's earnings per share
+10-K filings are public information and readily available via any number of sources.
+A Form 10-K is an annual report required by the U.S. Securities and Exchange Commission (SEC), that gives a comprehensive summary of a company's financial performance.
+A 10-K is a comprehensive summary report of a company's performance that must be submitted annually to the Securities and Exchange Commission (SEC).
+GitHub brings together the world's largest community of developers to discover, share, and build better software. From open source projects to private team.
+Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+Git is easy to learn and has a tiny footprint with lightning fast performance.
+Git comes with built-in GUI tools (git-gui, gitk), but there are several third-party tools for users looking for a platform-specific experience.
+Git is a version control system for tracking changes in computer files and coordinating work on those files among multiple people.
+Git pull command is used to download content from a remote repository and immediately update the local repository to match that content.
+Git fetch command downloads commits, files, and refs from a remote repository into your local repo.
+The Standard Industrial Classification (SIC) Codes that appear in a company's disseminated EDGAR filings indicate the company's type of business. These codes are also used in the Division of Corporation Finance as a basis for assigning review responsibility for the company's filings.
+The Standard Industrial Classification (SIC) is a system for classifying industries by a four-digit code. Established in the United States in 1937, it is used by government agencies to classify industry areas.
+SIC codes have a hierarchical, top-down structure that begins with general characteristics and narrows down to the specifics.
+The SEC's EDGAR online database offers free public access to corporate information.
+A CIK is the unique number that the SEC's computer system assigns to individuals and corporations who file disclosure documents with the SEC.
+Non-U.S. public companies usually file their annual reports with the SEC on different forms.
+Fiscal year-end refers to the completion of a one-year, or 12-month, accounting period.
+We can say that Company ABC has a 12/31 fiscal year-end.
+Audited financial statements are required if the effective date of the registration statement is more than 45 days after the company’s fiscal year end.
+When the IPO occurs close to the registrant’s year end, the registrant’s financial statements presented in Form 10-K may only include operations for a very short period of time.
+Team, Inc. today announced that its Board of Directors has approved a change in Team's fiscal year end from May 31 to December 31.
+The Home Depot reported growth in net sales for the fiscal year ended January 29, 2017.
+ACME Inc fiscal year ends June 30 and everyone need to be aware of closing deadlines to ensure that transactions are recorded in the appropriate fiscal year.
+A Central Index Key or CIK number is a number given to an individual or company by the United States Securities and Exchange Commission.
+The Central Index Key or CIK is a 10-digit number used on the SEC computer systems to identify corporations and individuals who have filed disclosure with the SEC.
+The CIK can be used to search for company or fund filings on EDGAR, the Electronic Data-Gathering, Analysis, and Retrieval system of submissions by companies and others who are required by law to file forms with the U.S. Securities and Exchange Commission.

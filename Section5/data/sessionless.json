@@ -1,0 +1,280 @@
+{
+   "results": [
+      {
+         "keywords_result": {
+            "SEC": [
+               {
+                  "normalized_text": "SEC", 
+                  "start_time": 9.02, 
+                  "confidence": 0.992, 
+                  "end_time": 9.74
+               }
+            ]
+         }, 
+         "alternatives": [
+            {
+               "timestamps": [
+                  [
+                     "companies", 
+                     1.59, 
+                     1.98
+                  ], 
+                  [
+                     "are", 
+                     1.98, 
+                     2.09
+                  ], 
+                  [
+                     "legally", 
+                     2.09, 
+                     2.55
+                  ], 
+                  [
+                     "required", 
+                     2.55, 
+                     3.13
+                  ], 
+                  [
+                     "to", 
+                     3.27, 
+                     3.42
+                  ], 
+                  [
+                     "file", 
+                     3.42, 
+                     3.83
+                  ], 
+                  [
+                     "quarterly", 
+                     3.83, 
+                     4.3
+                  ], 
+                  [
+                     "report", 
+                     4.3, 
+                     4.69
+                  ], 
+                  [
+                     "the", 
+                     4.97, 
+                     5.1
+                  ], 
+                  [
+                     "ten", 
+                     5.1, 
+                     5.4
+                  ], 
+                  [
+                     "Q.", 
+                     5.4, 
+                     5.85
+                  ], 
+                  [
+                     "an", 
+                     6.29, 
+                     6.43
+                  ], 
+                  [
+                     "annual", 
+                     6.43, 
+                     6.85
+                  ], 
+                  [
+                     "report", 
+                     6.85, 
+                     7.36
+                  ], 
+                  [
+                     "in", 
+                     7.7, 
+                     7.82
+                  ], 
+                  [
+                     "the", 
+                     7.82, 
+                     7.9
+                  ], 
+                  [
+                     "ten", 
+                     7.9, 
+                     8.2
+                  ], 
+                  [
+                     "K.", 
+                     8.2, 
+                     8.7
+                  ], 
+                  [
+                     "with", 
+                     8.79, 
+                     8.94
+                  ], 
+                  [
+                     "the", 
+                     8.94, 
+                     9.02
+                  ], 
+                  [
+                     "SEC", 
+                     9.02, 
+                     9.74
+                  ]
+               ], 
+               "confidence": 0.942, 
+               "transcript": "companies are legally required to file quarterly report the 10 Q. an annual report in the 10 K. with the SEC "
+            }
+         ], 
+         "final": true
+      }
+   ], 
+   "result_index": 0, 
+   "speaker_labels": [
+      {
+         "from": 1.59, 
+         "to": 1.98, 
+         "speaker": 0, 
+         "confidence": 0.439, 
+         "final": false
+      }, 
+      {
+         "from": 1.98, 
+         "to": 2.09, 
+         "speaker": 0, 
+         "confidence": 0.439, 
+         "final": false
+      }, 
+      {
+         "from": 2.09, 
+         "to": 2.55, 
+         "speaker": 0, 
+         "confidence": 0.439, 
+         "final": false
+      }, 
+      {
+         "from": 2.55, 
+         "to": 3.13, 
+         "speaker": 0, 
+         "confidence": 0.439, 
+         "final": false
+      }, 
+      {
+         "from": 3.27, 
+         "to": 3.42, 
+         "speaker": 0, 
+         "confidence": 0.429, 
+         "final": false
+      }, 
+      {
+         "from": 3.42, 
+         "to": 3.83, 
+         "speaker": 0, 
+         "confidence": 0.429, 
+         "final": false
+      }, 
+      {
+         "from": 3.83, 
+         "to": 4.3, 
+         "speaker": 0, 
+         "confidence": 0.429, 
+         "final": false
+      }, 
+      {
+         "from": 4.3, 
+         "to": 4.69, 
+         "speaker": 0, 
+         "confidence": 0.429, 
+         "final": false
+      }, 
+      {
+         "from": 4.97, 
+         "to": 5.1, 
+         "speaker": 1, 
+         "confidence": 0.437, 
+         "final": false
+      }, 
+      {
+         "from": 5.1, 
+         "to": 5.4, 
+         "speaker": 1, 
+         "confidence": 0.437, 
+         "final": false
+      }, 
+      {
+         "from": 5.4, 
+         "to": 5.85, 
+         "speaker": 1, 
+         "confidence": 0.437, 
+         "final": false
+      }, 
+      {
+         "from": 6.29, 
+         "to": 6.43, 
+         "speaker": 2, 
+         "confidence": 0.462, 
+         "final": false
+      }, 
+      {
+         "from": 6.43, 
+         "to": 6.85, 
+         "speaker": 2, 
+         "confidence": 0.462, 
+         "final": false
+      }, 
+      {
+         "from": 6.85, 
+         "to": 7.36, 
+         "speaker": 2, 
+         "confidence": 0.462, 
+         "final": false
+      }, 
+      {
+         "from": 7.7, 
+         "to": 7.82, 
+         "speaker": 1, 
+         "confidence": 0.472, 
+         "final": false
+      }, 
+      {
+         "from": 7.82, 
+         "to": 7.9, 
+         "speaker": 1, 
+         "confidence": 0.472, 
+         "final": false
+      }, 
+      {
+         "from": 7.9, 
+         "to": 8.2, 
+         "speaker": 1, 
+         "confidence": 0.472, 
+         "final": false
+      }, 
+      {
+         "from": 8.2, 
+         "to": 8.7, 
+         "speaker": 1, 
+         "confidence": 0.472, 
+         "final": false
+      }, 
+      {
+         "from": 8.79, 
+         "to": 8.94, 
+         "speaker": 1, 
+         "confidence": 0.495, 
+         "final": false
+      }, 
+      {
+         "from": 8.94, 
+         "to": 9.02, 
+         "speaker": 1, 
+         "confidence": 0.495, 
+         "final": false
+      }, 
+      {
+         "from": 9.02, 
+         "to": 9.74, 
+         "speaker": 1, 
+         "confidence": 0.495, 
+         "final": true
+      }
+   ]
+}

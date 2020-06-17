@@ -1,0 +1,72 @@
+--------------------------------------------------------------------------------
+This file has a series of cURL commands that you can run to perform various Watson STT operations. Run the export (if on Mac or *nix) or the set (if on Windows) with your Watson STT instance credentials. The rest of the commands depend on the environment variables. Also run the commands from the 'data' folder where the audio files reside. Make changes to the relate path or the spaces accordingly if you get a formatting error.
+--------------------------------------------------------------------------------
+
+**** In Mac or Linux ****
+export STT_USERNAME=<<your STT instance username>>
+export STT_PASSWORD=<<your STT instance password>>
+referenced as $STT_USERNAME and $STT_PASSWORD
+
+**** In Windows ****
+set STT_USERNAME=<<your STT instance username>>
+set STT_PASSWORD=<<your STT instance password>>
+referenced as %STT_USERNAME% and %STT_PASSWORD%
+
+****** 0. Test using OOB BB Model ******
+curl -X POST -u $STT_USERNAME:$STT_PASSWORD \
+--header "Content-Type: audio/wav" \
+--header "Transfer-Encoding: chunked"  \
+--data-binary @EDGAR.wav  "https://stream.watsonplatform.net/speech-to-text/api/v1/recognize?model=en-US_BroadbandModel"
+
+
+****** 1. Create Custom Model ******
+curl -X POST -u "$STT_USERNAME":"$STT_PASSWORD" \
+--header "Content-Type: application/json" \
+--data "{\"name\": \"SC-FinanceCustomModel\", \
+  \"base_model_name\": \"en-US_BroadbandModel\", \
+  \"description\": \"Custom Language Model for STT to understand FSS domain\"}" \
+"https://stream.watsonplatform.net/speech-to-text/api/v1/customizations"
+
+export CUSTOMIZATION_ID=418b7878-c067-4000-8b00-d0862672d1f1
+
+export CUSTOMIZATION_ID=<<your customization id>>
+
+****** 2. Add Corpus file to custom language model ******
+curl -X POST -u "$STT_USERNAME":"$STT_PASSWORD" \
+--data-binary "@custom_corpus.txt" \
+"https://stream.watsonplatform.net/speech-to-text/api/v1/customizations/$CUSTOMIZATION_ID/corpora/FSSGitCorpus"
+
+
+****** 3. Check Corpus Analysis Completed Status ******
+curl -X GET -u "$STT_USERNAME":"$STT_PASSWORD" \
+https://stream.watsonplatform.net/speech-to-text/api/v1/customizations/$CUSTOMIZATION_ID/corpora
+
+****** 4. Retrieve & examine OOV words that were extracted from corpora ******
+curl -X GET -u "$STT_USERNAME":"$STT_PASSWORD" \
+https://stream.watsonplatform.net/speech-to-text/api/v1/customizations/$CUSTOMIZATION_ID/words?sort=count
+
+****** 5. Add new OOV words to custom model's words resource list. ******
+curl -X POST -u "$STT_USERNAME":"$STT_PASSWORD" \
+--header "Content-Type: application/json" \
+--data "{\"words\": [{\"word\": \"SIC\", \"sounds_like\": [\"S. I. C.\", \"sick\"], \"display_as\": \"SIC\"}, {\"word\": \"fiscal\", \"sounds_like\": [\"fis kal\", \"fis cal\"], \"display_as\": \"fiscal\"} ]}" "https://stream.watsonplatform.net/speech-to-text/api/v1/customizations/$CUSTOMIZATION_ID/words"
+
+****** 6. Train the model ******
+curl -X POST -u "$STT_USERNAME":"$STT_PASSWORD" \
+-H "Content-type: application/json" --data "{}" \
+https://stream.watsonplatform.net/speech-to-text/api/v1/customizations/$CUSTOMIZATION_ID/train
+
+****** 7. Check model status ******
+curl -X GET -u "$STT_USERNAME":"$STT_PASSWORD" https://stream.watsonplatform.net/speech-to-text/api/v1/customizations/$CUSTOMIZATION_ID
+
+****** 8. Use custom language model on your audio ******
+curl -X POST -u $STT_USERNAME:$STT_PASSWORD \
+--header "Content-Type: audio/wav" \
+--header "Transfer-Encoding: chunked"  \
+--data-binary @EDGAR.wav  "https://stream.watsonplatform.net/speech-to-text/api/v1/recognize?model=en-US_BroadbandModel&customization_id=$CUSTOMIZATION_ID"
+
+****** 9. Delete a corpus ******
+curl -X DELETE -u "$STT_USERNAME":"$STT_PASSWORD" \
+"https://stream.watsonplatform.net/speech-to-text/api/v1/customizations/$CUSTOMIZATION_ID/corpora/FSSGitCorpus"
+
+****** 10. Retrieve all custom models ******
+curl -X GET -u  $STT_USERNAME:$STT_PASSWORD "https://stream.watsonplatform.net/speech-to-text/api/v1/customizations"
